@@ -1,0 +1,4 @@
+import json
+x= {"Karnataka":"Bangalore" , "Goa":"Panji" , "Mumbai":"Maharastra" , "Bihar":"Patna" , "Andhra Pradesh":"Amaravati" , "Himachal Pradesh":"Shimla" , "Kerala":"Thiruvananthapuram"}
+json_string=json.dumps(x)
+print(json_string)
